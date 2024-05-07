@@ -9,3 +9,6 @@ cd webenv\Scripts
 
 PS C:\Users\Diego\OneDrive\my_code\weblearn2\webenv\web2\learingweb\pyweb>
 python manage.py runserver  
+
+git push -u origin main
+git
