@@ -1,0 +1,11 @@
+
+mkdir __ > make new directory 
+cd ../ > up directory 
+
+virtualenv ___ > new virtualenv
+C:\Users\Diego\OneDrive\my_code\weblearn2\webenv\Scripts>
+cd webenv\Scripts
+.\activate
+
+PS C:\Users\Diego\OneDrive\my_code\weblearn2\webenv\web2\learingweb\pyweb>
+python manage.py runserver  
