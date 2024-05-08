@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'posts',#this reffers to the post app dirrectory (upperlevel)
 ]
 
 MIDDLEWARE = [
