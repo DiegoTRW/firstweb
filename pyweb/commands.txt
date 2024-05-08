@@ -13,3 +13,9 @@ python manage.py startapp posts
 
 git push -u origin main
 git
+
+{% block body_text %}
+<p> this is a set of word at the top of the screen</p>
+{% endblock  %}
+{% block
+    body_text %} text {% endblock %}
