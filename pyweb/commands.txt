@@ -10,6 +10,19 @@ cd webenv\Scripts
 C:\Users\Diego\OneDrive\my_code\weblearn2\webenv\web2\learingweb\pyweb>
 python manage.py runserver  
 python manage.py startapp posts
+python manage.py shell
+python manage.py createsuperuser
 
 git push -u origin main
 git commit -a -m
+
+for orm:
+ from appname.models import classname  
+ p=classname()
+ p.(data type in modle)= "..."
+p.save()
+modelname.objects.all()
+exit()
+
+learner_admin
+DiegoTest

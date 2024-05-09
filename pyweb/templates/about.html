@@ -1,18 +1,6 @@
-<!DOCTYPE html>
-{% load static %}
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="{% static 'css/oldv.css' %}" />
-    <script src="{% static 'js/main.js' %}" defer></script>
-    <title>about</title>
-  </head>
-  <body>
-    <h1>About</h1>
-    <p>Chech out my <a href="/">Home</a> page.</p>
-    <p>here is link to <a href="/post">Post</a></p>
-    <p>this is a great website</p>
-    <p>this is message to make sure about.html is working right</p>
-  </body>
-</html>
+
+{% extends "basic.html" %}
+{% block title %}About{% endblock %}
+{% block upper_descritipon %}
+  <h1>the html is working in about.html</h1>
+{% endblock %}

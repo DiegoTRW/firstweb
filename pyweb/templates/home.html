@@ -1,18 +1,6 @@
-<!DOCTYPE html>
-{% load static %}
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="{% static 'css/oldv.css' %}" />
-    <script src="{% static 'js/main.js' %}" defer></script>
-    <title>Home</title>
-  </head>
-  <body>
-    <h1>Home</h1>
-    <p>Chech out my <a href="/about">About</a> page.</p>
-    <p>
-      this is what you will be seeing if the html is working in the homepage
-    </p>
-  </body>
-</html>
+
+{% extends "basic.html" %}
+{% block title %}HOME{% endblock %}
+{% block upper_descritipon %}
+  <h1>the html is working in home.html</h1>
+{% endblock %}
