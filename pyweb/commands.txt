@@ -7,7 +7,7 @@ C:\Users\Diego\OneDrive\my_code\weblearn2\webenv\Scripts>
 cd webenv\Scripts
 .\activate
 
-C:\Users\Diego\OneDrive\my_code\weblearn2\webenv\web2\learingweb\pyweb>
+C:\Users\Diego\OneDrive\my_code\weblearn2\web2\learingweb\pyweb>
 python manage.py runserver  
 python manage.py startapp posts
 python manage.py shell

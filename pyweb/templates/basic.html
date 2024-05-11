@@ -10,7 +10,8 @@
   </head>
   <body>
     <nav>
-      <a href="/">Home</a>| <a href="/about">About</a>| <a href="/post">Post</a>
+      <a href="/">Home</a>| <a href="/about">About</a>|
+      <a href="{% url 'post' %}">Post</a>
     </nav>
     <main>{% block upper_descritipon %} top descritipon {% endblock %}</main>
   </body>
